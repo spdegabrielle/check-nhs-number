@@ -1,9 +1,11 @@
-#lang setup/infotab
-(define version "0.1 alpha")
-  (define name "NHS Number Validator")
-  (define blurb
-    '("Only really useful for health systems in the UK"))
-  (define primary-file "nhs-number-check.ss")
-  (define categories '(misc))
-  
-  (define repositories '("4.x"))
+#lang info
+(define collection "check-nhs-number")
+(define deps '("base"
+               ;;"rackunit-lib"
+               ))
+;;(define build-deps '("scribble-lib" "racket-doc"))
+;;(define scribblings '(("scribblings/csv.scrbl" ())))
+(define pkg-desc "Simple example library with two functions")
+(define version "0.2")
+(define pkg-authors '(spdegabrielle))
+
