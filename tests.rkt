@@ -2,7 +2,7 @@
 ; nhs number validator
 ;; 10 digits
 ;; last is check digit
-(require "nhs-number-check.rkt")
+(require "main.rkt")
 ;;
 (define (test)
   (display (list 
